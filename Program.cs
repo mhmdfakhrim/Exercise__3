@@ -103,7 +103,26 @@ namespace Exercise__3
                             if (obj.Search(num, ref prev, ref curr) == false)
                                 Console.WriteLine("\nRecord not found");
                             else
+                            {
+                                Console.WriteLine("\nRecord found");
+                                Console.WriteLine("\nRoll number: " + curr.rollNumber);
+                                Console.WriteLine("\nName: " + curr.name);
+                            }
                         }
+                        break;
+                    case '3':
+                        {
+                            obj.firstNode;
+                        }
+                        break;
+                        case '4';
+                        return;
+                    default:
+                        {
+                            Console.WriteLine("Invalid option");
+                            break;
+                        }
+
                 }
             }
         }
